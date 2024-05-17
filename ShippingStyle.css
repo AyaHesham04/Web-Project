@@ -1,0 +1,340 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    /* background-image: url("/images/background.png"); */
+    height: auto;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 50px auto;
+    text-transform: uppercase;
+    width: 60%;
+
+
+}
+
+.cart-number {
+    color: #fff;
+}
+
+.container form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    width: 100%;
+
+}
+
+.container form h2 {
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #652672, #eb6365);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.container form .inputBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.container form .inputBox span {
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.container form .inputBox input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #444;
+    display: flex;
+}
+
+.container form .flexbox {
+    display: flex;
+    gap: 15px;
+}
+
+.container form .inputBox {
+    flex: 1 1 150px;
+
+}
+
+.container form .submit-btn {
+    width: 100%;
+    background: linear-gradient(45deg, #652672, #eb6365);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+    text-transform: uppercase;
+
+}
+
+.container form .submit-btn:hover {
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+/* responsive */
+@media(max-width: 1170px) {
+
+    #icon {
+        width: 130px;
+    }
+
+    .dog-icon img {
+        width: 70px;
+    }
+
+    .menu {
+        gap: 14px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    #icon {
+        width: 110px;
+    }
+
+    .dog-icon img {
+        width: 65px;
+    }
+
+    .menu {
+        gap: 13px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 20px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 780px) {
+
+    #icon {
+        width: 90px;
+    }
+
+    .dog-icon img {
+        width: 55px;
+    }
+
+    .menu {
+        gap: 12px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .menu li .material-symbols-outlined {
+        font-size: 19px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 19px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #topOfPage {
+        padding: 1% 2%;
+    }
+
+    #icon {
+        width: 95px;
+    }
+
+    .dog-icon img {
+        width: 58px;
+    }
+}
+
+@media(max-width: 767px) {
+    #icon {
+        width: 90px;
+    }
+
+    .dog-icon img {
+        width: 55px;
+    }
+
+    .menu {
+        gap: 11px;
+    }
+
+    .menu li a {
+        font-size: 13px;
+    }
+
+    .menu li .material-symbols-outlined {
+        font-size: 22px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 17px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 574px) {
+
+    #icon {
+        width: 80px;
+    }
+
+    .dog-icon img {
+        width: 45px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    .menu li a {
+        font-size: 11px;
+    }
+
+    .menu li .material-symbols-outlined {
+        font-size: 19px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 15px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 500px) {
+    #icon {
+        width: 77px;
+    }
+
+    .dog-icon img {
+        width: 43px;
+    }
+
+    .menu {
+        gap: 9px;
+    }
+
+    .menu li a {
+        font-size: 11px;
+    }
+
+    .menu li .material-symbols-outlined {
+        font-size: 19px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 13px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 415px) {
+
+    #icon {
+        width: 60px;
+    }
+
+    .dog-icon img {
+        width: 35px;
+    }
+
+    .menu {
+        gap: 7px;
+    }
+
+    .menu li a {
+        font-size: 9px;
+    }
+
+    .menu li .material-symbols-outlined {
+        font-size: 16px;
+    }
+
+    .container form h2,
+    .container form .submit-btn {
+        font-size: 10px;
+    }
+
+    .container form .inputBox span,
+    .container form .inputBox input,
+    .container form .inputBox select {
+        font-size: 8px;
+    }
+
+}

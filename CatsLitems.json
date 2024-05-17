@@ -1,0 +1,62 @@
+[
+    {
+        "id": 13,
+        "name": "AMBIANCE Clumping Litter Beby Powder Scented 5L",
+        "price": 150.00,
+        "image": "images/catsproducts/cl1.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    },
+    {
+        "id": 14,
+        "name": "CAT BERRY Clumping Litter 10L",
+        "price": 225.00,
+        "image": "images/catsproducts/cl2.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    },
+    {
+        "id": 15,
+        "name": "CAT ZONE Clumping Cat Litter With Orange 10 KG",
+        "price": 205.00,
+        "image": "images/catsproducts/cl3.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    },
+    {
+        "id": 16,
+        "name": "GARFIELD Cat Litter Marseille Soap 10L",
+        "price": 280.00,
+        "image": "images/catsproducts/cl4.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    },
+    {
+        "id": 17,
+        "name": "GOLDLIFE Extra Strong Clumping Cat Litter Scented Baby Powder 10L",
+        "price": 175.00,
+        "image": "images/catsproducts/cl5.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    },
+    {
+        "id": 18,
+        "name": "MIO Marsellie Soap 10L",
+        "price": 265.00,
+        "image": "images/catsproducts/cl6.png",
+        "description": "product description",
+        "categoryNum": 13,
+        "categoryName": "cat litter",
+        "stock": 20
+    }
+]

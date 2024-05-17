@@ -1,0 +1,62 @@
+[
+    {
+        "id": 25,
+        "name": "BESTPET Adult Dog Beef 400g",
+        "price": 55.00,
+        "image": "images/dogsproducts/dw1.png",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    },
+    {
+        "id": 26,
+        "name": "CESAR CLASSICS Terrine Lamb And Chicken in Jelly 150g",
+        "price": 60.00,
+        "image": "images/dogsproducts/dw2.png",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    },
+    {
+        "id": 27,
+        "name": "ROYAL CANIN Maxi adult pouch chunks in gravy 140gm",
+        "price": 50.00,
+        "image": "images/dogsproducts/dw3.png",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    },
+    {
+        "id": 28,
+        "name": "MERA Wet Food Pure Sensitive With Beef 400g",
+        "price": 150.00,
+        "image": "images/dogsproducts/dw4.png",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    },
+    {
+        "id": 29,
+        "name": "AVALON CAN With Chicken 410gm",
+        "price": 17.50,
+        "image": "images/dogsproducts/dw5.png",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    },
+    {
+        "id": 30,
+        "name": "GROOVY Classic dog pate duck 400g",
+        "price": 35.00,
+        "image": "images/dogsproducts/dw6.jpg",
+        "description": "product description",
+        "categoryNum": 21,
+        "categoryName": "dog wet food",
+        "stock": 20
+    }
+]

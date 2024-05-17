@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": " PURINA FANCY FEAST Creamy Delight Wet Cat Food Salmon Milk 3 oz can",
+        "price": 30.00,
+        "image": "images/catsproducts/wetf1.png",
+        "description": "Your cat's favorite entrées, infused with milk. A dish come true.",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    },
+    {
+        "id": 2,
+        "name": "PURINA FELIX Cats With Chicken in Jelly 85g Pouch",
+        "price": 50.00,
+        "image": "images/catsproducts/wetf2.png",
+        "description": "Mouth-watering tastes and textures, it really does taste as good as it looks! A great way to keep your cat nourished through complete and balanced nutrition.",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    },
+    {
+        "id": 3,
+        "name": "PURINA FRISKIES Chicken and Tuna Wet Cat Food 5.5 oz",
+        "price": 40.00,
+        "image": "images/catsproducts/wetf3.png",
+        "description": "product description",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "name": "FRISKIES Pate Wet Cat Food, Poultry Platter, 13 oz.",
+        "price": 100.00,
+        "image": "images/catsproducts/wetf4.png",
+        "description": "product description",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    },
+    {
+        "id": 5,
+        "name": "PURINA FRISKIES Turkey Chunks In Gravy Pouch 85g",
+        "price": 35.00,
+        "image": "images/catsproducts/wetf5.png",
+        "description": "product description",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    },
+    {
+        "id": 6,
+        "name": "SPECIAL KITTY Pate Wet Cat Food, Mixed Grill Dinner, 22 oz",
+        "price": 70.00,
+        "image": "images/catsproducts/wetf6.png",
+        "description": "product description",
+        "categoryNum": 11,
+        "categoryName": "cat wet food",
+        "stock": 20
+    }
+]

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Pet" />
+    <title>Dr. Pet - Services</title>
+
+    <link rel="icon" type="image/png" href="images/icon tab.png">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="services.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav id="topOfPage" class="fixed">
+        <div class="logo">
+            <a href="home.html"><img id="icon" src="images/drpet.png" alt="Dr.Pet Logo" /></a>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="CatProducts.html">Cats</a>
+                        <a href="DogProducts.html">Dogs</a>
+                    </div>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="loginBtn" href="sign-up.html">Login/SignUp</a></li>
+                <li id="logoutBtn" style="display: none;">
+                    <a href="#" onclick="logout()">Logout</a>
+                </li>
+                <a href="ShoppingCart.html" class="icon-cart">
+                    <li>
+                        <div class="material-symbols-outlined">
+                            shopping_bag
+                        </div>
+                        <!-- <span class="cart-number">0</span> -->
+                    </li>
+                </a>
+                <li class="icon-user">
+                    <a><i class="fas fa-user"></i></a>
+                    <div class="icon-user-content">
+                        <div class="email-container">
+                            <span id="userEmailDisplay"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="servicestitle">
+        <img src="images/Services-title.jpeg" alt="Services title">
+    </div>
+    <div class="Servicesimages">
+        <div class="clinic">
+            <img src="images/clinic image.svg" alt="medical tests image">
+            <div class="text-on-image">Clinic</div>
+            <div class="image-overlay">
+                <h2>Clinic</h2>
+                <p>At Central Bark Veterinary Clinic, your pet's well-being is our central focus.
+                    Our expert team of veterinarians is here to provide top-notch medical care,
+                    from routine check-ups to emergencies. Contact us today to ensure your
+                    pet receives the best care and attention they deserve.</p>
+                <a href="Reservationform.html"><button class="btn">Reserve now</button></a>
+            </div>
+        </div>
+        <div class="grooming">
+            <img src="images/grooming.svg" alt="grooming image">
+            <div class="text-on-image">Grooming</div>
+            <div class="image-overlay">
+                <h2>Grooming</h2>
+                <p>At Central Bark, we provide top-tier grooming services for your beloved pets.
+                    Our experienced and caring team ensures your furry friend leaves looking and feeling their best.
+                    From baths to stylish haircuts, we cater to all breeds and sizes. Your pet's well-being is our
+                    priority.
+                    Contact us today to book an appointment and treat your pet to the ultimate grooming experience.</p>
+                <a class="btn anchor-text" href="#GroomingPage">Show Grooming</a>
+            </div>
+        </div>
+    </div>
+    <div class="grooming-images">
+        <img src="images/Cat grooming.jpeg" alt="Cat Grooming">
+        <img src="images/dog grooming.jpg" alt="Dogs Grooming">
+    </div>
+
+    <div class="grooming-part" id="GroomingPage"></div>
+    <div class="itemsTitle">
+        <h2>Grooming Products</h2>
+    </div>
+
+    <script type="text/javascript" src="GroomingProducts.js"></script>
+
+    <div class="productcont">
+    </div>
+
+    <!-- <button class="add-to-cart">Add to Cart</button> -->
+
+    <button onclick="topFunction()" id="topbutton"><img src="images/arrow.png" /></button>
+
+    <div class="dog-icon">
+        <img src="images/bone-walking.gif" alt="Animated Dog">
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footercontainer">
+          <div class="footerrow">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="aboutusHTML.html">about us</a></li>
+      
+                <li><a href="services.html">our services</a></li>
+                <li><a href="ReturnForm.html">return a product</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Products</h4>
+              <ul>
+                <li><a href="CatProducts.html">cat products</a></li>
+                <li><a href="DogProducts.html">dog products</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/Dr.Pet.EG/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dr.pet.eg/"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:dr.pet.eg18@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="services.js"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>

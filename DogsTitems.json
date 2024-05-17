@@ -1,0 +1,62 @@
+[
+    {
+        "id": 37,
+        "name": "Migma Biscuits With Beef 400gm",
+        "price": 60.00,
+        "image": "images/dogsproducts/dtr1.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    },
+    {
+        "id": 38,
+        "name": "ORGO Pillow Treats For Dog With Beef 100g",
+        "price": 55.00,
+        "image": "images/dogsproducts/dtr2.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    },
+    {
+        "id": 39,
+        "name": "PEDIGREE DENTASTIX Chewy Chunx medium and large dogs chicken 68g",
+        "price": 195.00,
+        "image": "images/dogsproducts/dtr3.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    },
+    {
+        "id": 40,
+        "name": "PEDIGREE RANCHOS Adult Dog Treats Chicken Liver Sticks 60g",
+        "price": 120.00,
+        "image": "images/dogsproducts/dtr4.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    },
+    {
+        "id": 41,
+        "name": "PURINA BONIO Bonio Adult Dog Biscuits 650g",
+        "price": 220.00,
+        "image": "images/dogsproducts/dtr5.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    },
+    {
+        "id": 42,
+        "name": "ROBUST Hearty Treats Skin And Coat Care 500g",
+        "price": 325.00,
+        "image": "images/dogsproducts/dtr6.png",
+        "description": "product description",
+        "categoryNum": 23,
+        "categoryName": "dog treats",
+        "stock": 20
+    }
+]

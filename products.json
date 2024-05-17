@@ -1,0 +1,578 @@
+[
+    {
+        "id": 1,
+        "name": " PURINA FANCY FEAST Creamy Delight Wet Cat Food Salmon Milk 3 oz can",
+        "price": 30.00,
+        "image": "images/catsproducts/wetf1.png",
+        "description": "Your cat's favorite entrées, infused with milk. A dish come true.",
+        "category": 11
+    },
+    {
+        "id": 2,
+        "name": "PURINA FELIX Cats With Chicken in Jelly 85g Pouch",
+        "price": 50.00,
+        "image": "images/catsproducts/wetf2.png",
+        "description": "Mouth-watering tastes and textures, it really does taste as good as it looks! A great way to keep your cat nourished through complete and balanced nutrition.",
+        "category": 11
+    },
+    {
+        "id": 3,
+        "name": "PURINA FRISKIES Chicken and Tuna Wet Cat Food 5.5 oz",
+        "price": 40.00,
+        "image": "images/catsproducts/wetf3.png",
+        "description": "product description",
+        "category": 11
+    },
+    {
+        "id": 4,
+        "name": "FRISKIES Pate Wet Cat Food, Poultry Platter, 13 oz.",
+        "price": 100.00,
+        "image": "images/catsproducts/wetf4.png",
+        "description": "product description",
+        "category": 11
+    },
+    {
+        "id": 5,
+        "name": "PURINA FRISKIES Turkey Chunks In Gravy Pouch 85g",
+        "price": 35.00,
+        "image": "images/catsproducts/wetf5.png",
+        "description": "product description",
+        "category": 11
+    },
+    {
+        "id": 6,
+        "name": "SPECIAL KITTY Pate Wet Cat Food, Mixed Grill Dinner, 22 oz",
+        "price": 70.00,
+        "image": "images/catsproducts/wetf6.png",
+        "description": "product description",
+        "category": 11
+    },
+    {
+        "id": 7,
+        "name": "ALPHA Dry Food For Adult Cat With Poultry 10kg",
+        "price": 900.00,
+        "image": "images/catsproducts/cdf1.jpg",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 8,
+        "name": "MERA Cat Finest fit kitten 1.5kg",
+        "price": 600.00,
+        "image": "images/catsproducts/cdf2.png",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 9,
+        "name": "HAPPY CAT minkas perfect mix 1.5 kg",
+        "price": 675.00,
+        "image": "images/catsproducts/cdf3.png",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 10,
+        "name": "LEGENDS For Adult Cat With Chicken 10Kg",
+        "price": 300.00,
+        "image": "images/catsproducts/cdf4.png",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 11,
+        "name": "NATURE protection persian cat 7kg",
+        "price": 890.00,
+        "image": "images/catsproducts/cdf5.jpg",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 12,
+        "name": "COMPY For Adult Cat With Beef And Vegetables 10kg",
+        "price": 960.00,
+        "image": "images/catsproducts/cdf6.png",
+        "description": "product description",
+        "category": 12
+    },
+    {
+        "id": 13,
+        "name": "AMBIANCE Clumping Litter Beby Powder Scented 5L",
+        "price": 150.00,
+        "image": "images/catsproducts/cl1.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 14,
+        "name": "CAT BERRY Clumping Litter 10L",
+        "price": 225.00,
+        "image": "images/catsproducts/cl2.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 15,
+        "name": "CAT ZONE Clumping Cat Litter With Orange 10 KG",
+        "price": 205.00,
+        "image": "images/catsproducts/cl3.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 16,
+        "name": "GARFIELD Cat Litter Marseille Soap 10L",
+        "price": 280.00,
+        "image": "images/catsproducts/cl4.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 17,
+        "name": "GOLDLIFE Extra Strong Clumping Cat Litter Scented Baby Powder 10L",
+        "price": 175.00,
+        "image": "images/catsproducts/cl5.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 18,
+        "name": "MIO Marsellie Soap 10L",
+        "price": 265.00,
+        "image": "images/catsproducts/cl6.png",
+        "description": "product description",
+        "category": 13
+    },
+    {
+        "id": 19,
+        "name": "FURminator deShedding Tool Short Hair",
+        "price": 190.00,
+        "image": "images/catsproducts/cacc1.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 20,
+        "name": "NAOMI magic cat ball",
+        "price": 365.00,
+        "image": "images/catsproducts/cacc2.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 21,
+        "name": "NAOMI Cat Scratching Cactus",
+        "price": 1075.00,
+        "image": "images/catsproducts/cacc3.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 22,
+        "name": "NAOMI Cat Smart Paws Litter Box with Shovel",
+        "price": 980.00,
+        "image": "images/catsproducts/cacc4.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 23,
+        "name": "ARIIKA Soft Fur Snoozy Bed",
+        "price": 820.00,
+        "image": "images/catsproducts/cacc5.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 24,
+        "name": "BRACCO Travel Carrier",
+        "price": 2600.00,
+        "image": "images/catsproducts/cacc6.png",
+        "description": "product description",
+        "category": 14
+    },
+    {
+        "id": 25,
+        "name": "BESTPET Adult Dog Beef 400g",
+        "price": 55.00,
+        "image": "images/dogsproducts/dw1.png",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 26,
+        "name": "CESAR CLASSICS Terrine Lamb And Chicken in Jelly 150g",
+        "price": 60.00,
+        "image": "images/dogsproducts/dw2.png",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 27,
+        "name": "ROYAL CANIN Maxi adult pouch chunks in gravy 140gm",
+        "price": 50.00,
+        "image": "images/dogsproducts/dw3.png",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 28,
+        "name": "MERA Wet Food Pure Sensitive With Beef 400g",
+        "price": 150.00,
+        "image": "images/dogsproducts/dw4.png",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 29,
+        "name": "AVALON CAN With Chicken 410gm",
+        "price": 17.50,
+        "image": "images/dogsproducts/dw5.png",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 30,
+        "name": "GROOVY Classic dog pate duck 400g",
+        "price": 35.00,
+        "image": "images/dogsproducts/dw6.jpg",
+        "description": "product description",
+        "category": 21
+    },
+    {
+        "id": 31,
+        "name": "ALPHA Adult Dry Food With Chicken 4kg",
+        "price": 280.00,
+        "image": "images/dogsproducts/dd1.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 32,
+        "name": "AMBROSIA Fresh Chicken & Salmon Growth for Large Breeds 12kg",
+        "price": 2950.00,
+        "image": "images/dogsproducts/dd2.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 33,
+        "name": "BITES Adult Dog 20kg",
+        "price": 800.00,
+        "image": "images/dogsproducts/dd3.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 34,
+        "name": "ROYAL CANIN Medium Adult 15kg",
+        "price": 1960.00,
+        "image": "images/dogsproducts/dd4.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 35,
+        "name": "COMPY Dry Food For Junior With Chicken",
+        "price": 400.00,
+        "image": "images/dogsproducts/dd5.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 36,
+        "name": "DOG CHOW Light Adult 2.5kg",
+        "price": 520.00,
+        "image": "images/dogsproducts/dd6.png",
+        "description": "product description",
+        "category": 22
+    },
+    {
+        "id": 37,
+        "name": "Migma Biscuits With Beef 400gm",
+        "price": 60.00,
+        "image": "images/dogsproducts/dtr1.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 38,
+        "name": "ORGO Pillow Treats For Dog With Beef 100g",
+        "price": 55.00,
+        "image": "images/dogsproducts/dtr2.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 39,
+        "name": "PEDIGREE DENTASTIX Chewy Chunx medium and large dogs chicken 68g",
+        "price": 195.00,
+        "image": "images/dogsproducts/dtr3.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 40,
+        "name": "PEDIGREE RANCHOS Adult Dog Treats Chicken Liver Sticks 60g",
+        "price": 120.00,
+        "image": "images/dogsproducts/dtr4.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 41,
+        "name": "PURINA BONIO Bonio Adult Dog Biscuits 650g",
+        "price": 220.00,
+        "image": "images/dogsproducts/dtr5.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 42,
+        "name": "ROBUST Hearty Treats Skin And Coat Care 500g",
+        "price": 325.00,
+        "image": "images/dogsproducts/dtr6.png",
+        "description": "product description",
+        "category": 23
+    },
+    {
+        "id": 43,
+        "name": "FLEXI Design 5m Cord Dog Leash Medium Green",
+        "price": 570.00,
+        "image": "images/dogsproducts/dacc1.png",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 44,
+        "name": "NAOMI Pet Hair Brush",
+        "price": 140.00,
+        "image": "images/dogsproducts/dacc2.png",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 45,
+        "name": "Bite Toy With Sound",
+        "price": 110.00,
+        "image": "images/dogsproducts/dacc3.png",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 46,
+        "name": "BRACCO Travel Dog Carrier and Kennel",
+        "price": 5000.00,
+        "image": "images/dogsproducts/dacc4.png",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 47,
+        "name": "ADIDOG Milton Dog Cat Clothes Hoodie Winter 8 sizes",
+        "price": 300.00,
+        "image": "images/dogsproducts/dacc5.png",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 48,
+        "name": "Pet Mat bed nest, Water Resistant, 2 sizes, army grey",
+        "price": 300.00,
+        "image": "images/dogsproducts/dacc6.jpg",
+        "description": "product description",
+        "category": 24
+    },
+    {
+        "id": 49,
+        "name": "BIRDO Budgie Golden Mix 900g",
+        "price": 130.00,
+        "image": "images/birdsproducts/bf1.jpg",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 50,
+        "name": "PABLO Seed Mix",
+        "price": 100.00,
+        "image": "images/birdsproducts/bf2.jpg",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 51,
+        "name": "BIRDO Cocka Mix 900gm",
+        "price": 120.00,
+        "image": "images/birdsproducts/bf3.jpg",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 52,
+        "name": "WILD DELIGHT 366050 Nut N' Berry Bird Food, 5lb",
+        "price": 150.00,
+        "image": "images/birdsproducts/bf4.png",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 53,
+        "name": "LYRIC DELITE Wild Bird Seed-Mix with Shell-Free Nuts & Seeds, 20lb bag",
+        "price": 500.00,
+        "image": "images/birdsproducts/bf5.png",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 54,
+        "name": "COLE Wild Bird Products Safflower Birdseed, 10-Pound, 10 lb",
+        "price": 250.00,
+        "image": "images/birdsproducts/bf6.jpg",
+        "description": "product description",
+        "category": 31
+    },
+    {
+        "id": 55,
+        "name": "VITAKRAFT Crunch Sticks Golden Honey Flavor Bird Treat for Cockatiels - 2 Sticks 3.5 oz",
+        "price": 80.00,
+        "image": "images/birdsproducts/bt1.png",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 56,
+        "name": "AMZEY 5.5 LB Spray Millet for Parakeets, 100% Natural Dried Millet Grain for Birds",
+        "price": 200.00,
+        "image": "images/birdsproducts/bt2.jpg",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 56,
+        "name": "A&E Cage Co. SmaKers Maxi Treat Sticks for Parrots in Nut/Coconut Flavor",
+        "price": 100.00,
+        "image": "images/birdsproducts/bt3.png",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 57,
+        "name": "PENN-PLAX Bird-Life Flavored E Cuttlebone 6 Pack, Mango & Banana",
+        "price": 100.00,
+        "image": "images/birdsproducts/bt4.jpg",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 58,
+        "name": "ZOO MED Banquet Cuttlebone, Small",
+        "price": 120.00,
+        "image": "images/birdsproducts/bt5.jpg",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 59,
+        "name": "C&S Cherry Treat",
+        "price": 70.00,
+        "image": "images/birdsproducts/bt6.jpg",
+        "description": "product description",
+        "category": 32
+    },
+    {
+        "id": 60,
+        "name": "KAYTEE Walnut Bird Litter, 7 lbs",
+        "price": 170.00,
+        "image": "images/birdsproducts/bl1.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 61,
+        "name": "SP PHRESH 20L Paper Bird Litter",
+        "price": 250.00,
+        "image": "images/birdsproducts/bl2.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 62,
+        "name": "ALL LIVING THINGS® Bird Paper Cage Liner - White",
+        "price": 400.00,
+        "image": "images/birdsproducts/bl3.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 63,
+        "name": "SP PHRESH Odor Control Crumbled Pine Bird Litter, 10 lbs",
+        "price": 310.00,
+        "image": "images/birdsproducts/bl4.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 64,
+        "name": "ALL LIVING THINGS® Gravel Paper Bird Cage Liners",
+        "price": 180.00,
+        "image": "images/birdsproducts/bl5.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 65,
+        "name": "VITAKRAFT Super-Absorbent Bird Cage Liners",
+        "price": 240.00,
+        "image": "images/birdsproducts/bl6.jpg",
+        "description": "product description",
+        "category": 33
+    },
+    {
+        "id": 66,
+        "name": "Bird Perch Nature Wood Wooded Stand Fork Branch For Parrots",
+        "price": 209.00,
+        "image": "images/birdsproducts/bacc1.jpg",
+        "description": "product description",
+        "category": 34
+    },
+    {
+        "id": 67,
+        "name": "Bird Perch Stand Parrot Toy Training Exercise Standing Pet Green",
+        "price": 680.00,
+        "image": "images/birdsproducts/bacc2.jpg",
+        "description": "product description",
+        "category": 34
+    },
+    {
+        "id": 68,
+        "name": "Bird Carrier Cage Shoulder Bag Pet Parrot Travel Clear Dark Blue",
+        "price": 3850.00,
+        "image": "images/birdsproducts/bacc3.jpg",
+        "description": "product description",
+        "category": 34
+    },
+    {
+        "id": 69,
+        "name": "PARAKEET Pet Bird Cage With Stand Stick & Bowls For Small Parrot",
+        "price": 1000.00,
+        "image": "images/birdsproducts/bacc4.jpg",
+        "description": "product description",
+        "category": 34
+    },
+    {
+        "id": 70,
+        "name": "Small Birds Cage Hanging Bathtub Birds Parrots Bathroom Cage Green",
+        "price": 380.00,
+        "image": "images/birdsproducts/bacc5.jpg",
+        "description": "product description",
+        "category": 34
+    },
+    {
+        "id": 71,
+        "name": "Pet Bowl Acrylic Bird Cage Transparent Pet Box Bird Feeder",
+        "price": 580.00,
+        "image": "images/birdsproducts/bacc6.jpg",
+        "description": "product description",
+        "category": 34
+    }
+]

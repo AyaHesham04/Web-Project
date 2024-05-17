@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Reservationform.css" />
+    <script src="Reservationform.js"></script>
+
+    <title>Appointment</title>
+
+    <link rel="icon" type="image/png" href="/images/pawimage.png" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/a;;.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav id="topOfPage" class="fixed">
+        <div class="logo">
+            <a href="home.html"><img id="icon" src="images/drpet.png" alt="Dr.Pet Logo" /></a>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li class="dropdown"><a href="#" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="CatProducts.html">Cats</a>
+                        <a href="DogProducts.html">Dogs</a>
+                    </div>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="loginBtn" href="sign-up.html">Login/SignUp</a></li>
+                <li id="logoutBtn" style="display: none;">
+                    <a href="#" onclick="logout()">Logout</a>
+                </li>
+                <a href="ShoppingCart.html" class="icon-cart">
+                    <li>
+                        <div class="material-symbols-outlined">
+                            shopping_bag
+                        </div>
+                        <!-- <span class="cart-number">0</span> -->
+                    </li>
+                </a>
+                <li class="icon-user">
+                    <a><i class="fas fa-user"></i></a>
+                    <div class="icon-user-content">
+                        <div class="email-container">
+                            <span id="userEmailDisplay"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <form action="http://localhost/webproject/cancel.php" method="post">
+            <h2 class="gradient-text">Cancel Your Reservation</h2>
+
+            <div class="inputBox">
+                <span>Phone Number Registered for Appointment</span>
+                <input type="phone" name="phone" required>
+            </div>
+
+            <div class="inputBox">
+                <span>appointment date</span>
+                <input type="date" name="appointment_date" required>
+            </div>
+
+            <div class="inputBox">
+                <span>appointment time</span>
+                <select type="time" name="appointment_time" required>
+                    <option value="slots" selected disabled>avaliable slots</option>
+                    <option value="1200">12pm</option>
+                    <option value="1500">3pm</option>
+                    <option value="1800">6pm</option>
+                    <option value="2100">9pm</option>
+                </select>
+            </div>
+            <input type="submit" class="submit-btn" value="submit" name="submit">
+        </form>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footercontainer">
+            <div class="footerrow">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="aboutusHTML.html">about us</a></li>
+
+                        <li><a href="services.html">our services</a></li>
+                        <li><a href="ReturnForm.html">return a product</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="CatProducts.html">cat products</a></li>
+                        <li><a href="DogProducts.html">dog products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Dr.Pet.EG/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/dr.pet.eg/"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:dr.pet.eg18@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="signup.js"></script>
+
+
+</body>
+
+</html>

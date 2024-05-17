@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Dr. Pet" />
+  <link rel="stylesheet" type="text/css" href="aboutus.css" />
+  <script src="Js style.js"></script>
+  <title>
+    Dr.pet
+  </title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css">
+
+  <link rel="icon" type="image/png" href="/imagesN/pawimage.png">
+</head>
+
+<body>
+
+  <nav id="topOfPage" class="fixed">
+    <div class="logo">
+      <a href="home.html"><img id="icon" src="images/drpet.png" alt="Dr.Pet Logo" /></a>
+    </div>
+    <div class="nav">
+      <ul class="menu">
+        <li><a href="home.html">Home</a></li>
+        <li class="dropdown"><a href="#" class="dropbtn">Products</a>
+          <div class="dropdown-content">
+            <a href="CatProducts.html">Cats</a>
+            <a href="DogProducts.html">Dogs</a>
+          </div>
+        </li>
+        <li><a href="services.html">Services</a></li>
+        <li><a id="loginBtn" href="sign-up.html">Login/SignUp</a></li>
+        <li id="logoutBtn" style="display: none;">
+          <a href="#" onclick="logout()">Logout</a>
+        </li>
+        <a href="ShoppingCart.html" class="icon-cart">
+          <li>
+            <div class="material-symbols-outlined">
+              shopping_bag
+            </div>
+            <!-- <span class="cart-number">0</span> -->
+          </li>
+        </a>
+        <li class="icon-user">
+          <a><i class="fas fa-user"></i></a>
+          <div class="icon-user-content">
+            <div class="email-container">
+              <span id="userEmailDisplay"></span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="bordercontainer">
+
+    <div class="cat-image">
+      <img src="imagesN/cute cat.png">
+    </div>
+
+    <div class="border">
+      <h1>WHO ARE WE? </h1>
+
+      <h3>Welcome to Dr pet and thank you for visiting our website ! We appreciate that you are curious about our
+        company and look forward to meeting you in our store in the near future. In the meantime, please let us tell you
+        a little bit about central bark.Dr pet is a locally owned and operated pet food and supply store. Our
+        mission is to provide dog and cat parents with everything that they need to ensure their pet lives a long and
+        happy life. Our goal is to provide a clean, pet friendly store that has everything that your dog
+        or cat needs. whi<span id="dots">...</span><span id="more">le store is not very large, we offer an
+          experience that is fast, friendly, local, and less
+          expensive that the "Big Box" pet stores</span></h3>
+      <div class="button" onclick="readmore()" id="myButton">Read more</button></div>
+
+    </div>
+    <div class="dog-image">
+      <img src="imagesN/Dog without bg.png">
+    </div>
+
+  </div>
+
+
+
+  <body>
+
+    <div class="dog-icon">
+      <img src="imagesN/bone-walking.gif" alt="Animated Dog">
+    </div>
+
+
+    <div class="ourteam">
+      <h2>Our Team</h2>
+    </div>
+
+    <div id="team-container">
+
+    </div>
+    <script>
+
+      var teamMembers = [
+        {
+          name: "Dr Ahmed",
+          image: "imagesN/doctorahmed.jpg",
+          bio: "drahmed@gmail.com"
+        },
+        {
+          name: "Dr Emily",
+          image: "imagesN/dremily.jpg",
+          bio: "dremily@gmail.com"
+        },
+        {
+          name: "Dr Hatem",
+          image: "imagesN/drhatem.jpg",
+          bio: "drhatem@gmail.com"
+        },
+        {
+          name: "Dr Sarah",
+          image: "imagesN/drsarah.jpg",
+          bio: "drsarah@gmail.com"
+        },
+      ];
+
+
+      function displayTeamMembers() {
+        var teamContainerElement = document.getElementById("team-container");
+
+        teamMembers.forEach(function (member) {
+          var profileCardElement = document.createElement("div");
+          profileCardElement.className = "profile-card";
+
+          var imageElement = document.createElement("img");
+          imageElement.src = member.image;
+          imageElement.alt = "Profile Picture";
+
+          var nameElement = document.createElement("h2");
+          nameElement.textContent = member.name;
+
+          var bioElement = document.createElement("p");
+
+          // Create an email link for the bio
+          var emailLinkElement = document.createElement("a");
+          emailLinkElement.href = "mailto:" + member.bio; // Use the email address as the mailto link
+          emailLinkElement.textContent = member.bio;
+
+          bioElement.appendChild(emailLinkElement);
+
+          profileCardElement.appendChild(imageElement);
+          profileCardElement.appendChild(nameElement);
+          profileCardElement.appendChild(bioElement);
+
+          teamContainerElement.appendChild(profileCardElement);
+        });
+      }
+
+      displayTeamMembers();
+    </script>
+
+  </body>
+
+</html>
+
+
+</script>
+
+<div class="FormCont">
+  <div class="border-form">
+    <div class="para"> Contact Us</div>
+    <form action="http://localhost/webproject/contactus.php" method="POST">
+      <label for="name"> Name:</label>
+      <input type="text" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea name="message" rows="4" required id="message"></textarea>
+      <input type="submit" name="submit" value="Submit">
+      <!-- <input type="submit" value="submit" class="submit" onclick="ContactData()"> -->
+
+    </form>
+  </div>
+</div>
+
+<!-- <script>
+  function ContactData() {
+    let Name = document.getElementById('name').value;
+    let Email = document.getElementById('email').value;
+    let Message = document.getElementById('message').value;
+
+    const Data = {
+      N: Name,
+      E: Email,
+      M: Message,
+    }
+
+    fetch('http://localhost/contactus', {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json', // Specify the content type as JSON
+      },
+      body: JSON.stringify({ Data }), // Convert the object to a JSON string
+    })
+      .then(function (response) {
+        if (!response.ok) {
+          console.log('Network response was not ok');
+        }
+      })
+      .catch(function (error) {
+        console.error('There was a problem with the fetch operation:', error);
+      });
+  }
+
+
+
+</script> -->
+
+
+<footer class="footer">
+  <div class="footercontainer">
+    <div class="footerrow">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="aboutusHTML.html">about us</a></li>
+
+          <li><a href="services.html">our services</a></li>
+          <li><a href="ReturnForm.html">return a product</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="CatProducts.html">cat products</a></li>
+          <li><a href="DogProducts.html">dog products</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/Dr.Pet.EG/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dr.pet.eg/"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:dr.pet.eg18@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="signup.js"></script>
+
+</body>
+
+</html>

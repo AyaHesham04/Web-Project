@@ -1,0 +1,62 @@
+[
+    {
+        "id": 7,
+        "name": "ALPHA Dry Food For Adult Cat With Poultry 10kg",
+        "price": 900.00,
+        "image": "images/catsproducts/cdf1.jpg",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    },
+    {
+        "id": 8,
+        "name": "MERA Cat Finest fit kitten 1.5kg",
+        "price": 600.00,
+        "image": "images/catsproducts/cdf2.png",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    },
+    {
+        "id": 9,
+        "name": "HAPPY CAT minkas perfect mix 1.5 kg",
+        "price": 675.00,
+        "image": "images/catsproducts/cdf3.png",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    },
+    {
+        "id": 10,
+        "name": "LEGENDS For Adult Cat With Chicken 10Kg",
+        "price": 300.00,
+        "image": "images/catsproducts/cdf4.png",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    },
+    {
+        "id": 11,
+        "name": "NATURE protection persian cat 7kg",
+        "price": 890.00,
+        "image": "images/catsproducts/cdf5.jpg",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    },
+    {
+        "id": 12,
+        "name": "COMPY For Adult Cat With Beef And Vegetables 10kg",
+        "price": 960.00,
+        "image": "images/catsproducts/cdf6.png",
+        "description": "product description",
+        "categoryNum": 12,
+        "categoryName": "cat dry food",
+        "stock": 20
+    }
+]

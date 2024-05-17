@@ -1,0 +1,62 @@
+[
+    {
+        "id": 19,
+        "name": "FURminator deShedding Tool Short Hair",
+        "price": 190.00,
+        "image": "images/catsproducts/cacc1.png",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 20,
+        "name": "NAOMI magic cat ball",
+        "price": 365.00,
+        "image": "images/catsproducts/cacc2.png",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 21,
+        "name": "NAOMI Cat Scratching Cactus",
+        "price": 1075.00,
+        "image": "images/catsproducts/cacc3.png",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 22,
+        "name": "NAOMI Cat Smart Paws Litter Box with Shovel",
+        "price": 980.00,
+        "image": "images/catsproducts/cacc4.png",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 23,
+        "name": "ARIIKA Soft Fur Snoozy Bed",
+        "price": 820.00,
+        "image": "images/catsproducts/cacc5.jpg",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 24,
+        "name": "BRACCO Travel Carrier",
+        "price": 2600.00,
+        "image": "images/catsproducts/cacc6.png",
+        "description": "product description",
+        "categoryNum": 14,
+        "categoryName": "cat accessories and toys",
+        "stock": 20
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 49,
+        "name": "Flea & Tick Spray",
+        "price": 104.00,
+        "image": "images/product no.1.jpg",
+        "description": "Omni Guard Cats & Dogs Flea & Tick Spray 125ml",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    },
+    {
+        "id": 50,
+        "name": "Flea & tick shampoo",
+        "price": 110.00,
+        "image": "images/product no.2.jpg",
+        "description": "Pets republic flea & tick shampoo with coconut oil - 500 ml",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    },
+    {
+        "id": 51,
+        "name": "Pet Pumpkin Brush",
+        "price": 100.00,
+        "image": "images/product no.3.jpg",
+        "description": "Pet Grooming Self Cleaning Slicker Brush for Dogs Cats",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    },
+    {
+        "id": 52,
+        "name": "Cat brush",
+        "price": 101.00,
+        "image": "images/product no.4.jpg",
+        "description": "product description",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    },
+    {
+        "id": 53,
+        "name": "Pets Republic Shampoo",
+        "price": 65.00,
+        "image": "images/product no.5.jpg",
+        "description": "product description",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    },
+    {
+        "id": 54,
+        "name": "Bosch Dremel 7020 pet nail grooming tool",
+        "price": 1032.00,
+        "image": "images/product no.6.jpg",
+        "description": "product description",
+        "categoryNum": 31,
+        "categoryName": "grooming products",
+        "stock": 20
+    }
+]

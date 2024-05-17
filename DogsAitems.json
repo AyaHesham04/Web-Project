@@ -1,0 +1,62 @@
+[
+    {
+        "id": 43,
+        "name": "FLEXI Design 5m Cord Dog Leash Medium Green",
+        "price": 570.00,
+        "image": "images/dogsproducts/dacc1.png",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 44,
+        "name": "NAOMI Pet Hair Brush",
+        "price": 140.00,
+        "image": "images/dogsproducts/dacc2.png",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 45,
+        "name": "Bite Toy With Sound",
+        "price": 110.00,
+        "image": "images/dogsproducts/dacc3.png",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 46,
+        "name": "BRACCO Travel Dog Carrier and Kennel",
+        "price": 5000.00,
+        "image": "images/dogsproducts/dacc4.png",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 47,
+        "name": "ADIDOG Milton Dog Cat Clothes Hoodie Winter 8 sizes",
+        "price": 300.00,
+        "image": "images/dogsproducts/dacc5.png",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    },
+    {
+        "id": 48,
+        "name": "Pet Mat bed nest, Water Resistant, 2 sizes, army grey",
+        "price": 300.00,
+        "image": "images/dogsproducts/dacc6.jpg",
+        "description": "product description",
+        "categoryNum": 24,
+        "categoryName": "dog accessories and toys",
+        "stock": 20
+    }
+]
